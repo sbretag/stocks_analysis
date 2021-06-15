@@ -21,10 +21,10 @@ Table 1 below compares total daily volume and returns twelve different stocks co
 ### Analysis Execution Times
 As mentioned in the overview, the analysis of the stock performance was ran using two different VBA scripts.  The table 2 below show the execution times of the original scripts for both 2017 & 2018 data sets and table 3 shows the execution times using the refactored script for both 2017 & 2018 data sets.  As you can see the refactored script ran faster which can be attributed to only having to loop through the entire dataset once, versus looping through the data set once for every stock.  The slight difference in timing would be more apparent if the data set contained thousands of stocks versus 12.
 
-####Table 2
+#### Table 2
 
 
-####Table 3
+#### Table 3
 
 
 
