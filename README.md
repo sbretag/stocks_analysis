@@ -36,21 +36,8 @@ As mentioned in the overview, the analysis of the stock performance was ran usin
 
 ### Advantages & Disadvantages of Refactoring Code in General
 
-#### Advantages
-1. placeholder
-2. placeholder
-
-#### Disadvantages
-1. placeholder
-2. placeholder
+In general, advantages of refactoring code include optimizing code to increase run times, implement bug fixes, and improving the overall readiability for future refactoring all while keeping the behavior the same.  Disadvantages include time, cost, and the risk of introducing new bugs. 
 
 ### Advantages & Disadvantages of the original and refactored VBA script
 
-#### Advantages
-1. placeholder
-2. placeholder
-
-#### Disadvantages
-1. placeholder
-2. placeholder
 
