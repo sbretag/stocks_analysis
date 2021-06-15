@@ -29,11 +29,7 @@ As mentioned in the overview, the analysis of the stock performance was ran usin
  [Go to Analysis w/Original Script](https://github.com/sbretag/stocks_analysis/blob/main/resources/green_stocks.xlsm)
 
 #### Table 3
-
-![](https://github.com/sbretag/stocks_analysis/blob/main/resources/VBA_Challenge_RefactoredScript_2017and2018)
-
-
-
+![](https://github.com/sbretag/stocks_analysis/blob/main/resources/VBA_Challenge_RefactoredScript_2017and2018.png)
 
 
 ## Summary
