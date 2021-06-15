@@ -13,21 +13,24 @@ The purpose of this project is to refactor the original VBA script put together 
 Table 1 below compares total daily volume and returns twelve different stocks contained in the data set.  It also includes analysis of what the value of $100 investment would of been at the beginning of 2017 through the end of 2018.   Overall, a positive return would of been made on all but three different stocks which are JKS, SPWR, & TERP.  The only stocks with positive returns in both years are ENPH and RUN which would of netted you the 1st and 3rd best returns in two years overall.  Although SEDG had a negative return in in 2018, the high positive return in 2017 gave this stock the 2nd best return over the two years.   ENPH, SEDG, and RUN also had the biggest increases in volumes between 2017 and 2018 possibly signaling strong and rising markets for the particular stock.  Finally, if you would of invested $100 in all stocks at the beginning of 2017 through the end of 2018, your net gain would of been 56.6%
 
 ##### Table 1
+![](https://github.com/sbretag/stocks_analysis/blob/main/resources/VBA_Challenge_2018vs2017.png)
 
 
 ##### Data Analysis File
  [Go to Analysis (Refactored Script)](https://github.com/sbretag/stocks_analysis/blob/main/VBA_Challenge.xlsm)
 
 ### Analysis Execution Times
-As mentioned in the overview, the analysis of the stock performance was ran using two different VBA scripts.  The table 2 below show the execution times of the original scripts for both 2017 & 2018 data sets and table 3 shows the execution times using the refactored script for both 2017 & 2018 data sets.  As you can see the refactored script ran faster which can be attributed to only having to loop through the entire dataset once, versus looping through the data set once for every stock.  The slight difference in timing would be more apparent if the data set contained thousands of stocks versus 12.
+As mentioned in the overview, the analysis of the stock performance was ran using two different VBA scripts.  The table 2 below show the execution times of the original scripts for both 2017 & 2018 data sets and table 3 shows the execution times using the refactored script for both 2017 & 2018 data sets.  As you can see the refactored script ran faster which can be attributed to only having to loop through the entire dataset once, versus looping through the data set once for every stock.  The difference in execution times is just over a half of second which may seem immaterial however if this script was applied to a data set with thousands of stocks, the time would be relatively longer.  When trading in the stock markets, every second counts.
 
 #### Table 2
-
+![](https://github.com/sbretag/stocks_analysis/blob/main/resources/VBA_Challenge_OrigScript_2017and2018.png)
 
 ##### Data Analysis File w/Original Script
  [Go to Analysis w/Original Script](https://github.com/sbretag/stocks_analysis/blob/main/resources/green_stocks.xlsm)
 
 #### Table 3
+
+![](https://github.com/sbretag/stocks_analysis/blob/main/resources/VBA_Challenge_RefactoredScript_2017and2018)
 
 
 
